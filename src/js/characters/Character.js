@@ -23,19 +23,4 @@ export default class Character {
     this.attack = attack;
     this.defence = defence;
   }
-
-  // validation(name, type) {
-  //   // массив с типами персонажей
-  //   const types = ['Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie'];
-
-  //   // проверка имени на строку и количество символов
-  //   if (typeof name !== 'string' || name.length < 2 || name.length > 10) {
-  //     throw new Error('Имя должно быть строкой от 2 до 10 символов');
-  //   }
-  //   // проверка типа персонажа на строку и наличие
-  //   if (typeof type !== 'string' || !types.includes(type)) {
-  //     throw new Error('Такого типа не существует');
-  //   }
-  //   return [name, type];
-  // }
 }
